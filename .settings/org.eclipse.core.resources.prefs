@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
+encoding//src/main/java=utf-8
+encoding//src/main/resources=UTF-8
 encoding//src/main/webapp/commons/scripts/jquery.hoverIntent.js=ISO-8859-1
 encoding//src/main/webapp/commons/themes/simplicity/theme.css=ISO-8859-1
+encoding//src/test/java=utf-8
 encoding/<project>=UTF-8
 encoding/README=UTF-8

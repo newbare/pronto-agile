@@ -306,7 +306,7 @@ INSERT INTO papel VALUES (7, 'Cliente');
 INSERT INTO papel VALUES (9, 'Equipe');
 
 INSERT INTO tipo_de_ticket VALUES (1, 'Ideia');
-INSERT INTO tipo_de_ticket VALUES (2, 'Estória');
+INSERT INTO tipo_de_ticket VALUES (2, 'Estï¿½ria');
 INSERT INTO tipo_de_ticket VALUES (3, 'Defeito');
 INSERT INTO tipo_de_ticket VALUES (5, 'Impedimento');
 INSERT INTO tipo_de_ticket VALUES (6, 'Tarefa');
@@ -316,17 +316,17 @@ INSERT INTO usuario (username, "password", nome, email) VALUES ('admin', 'ISMvKX
 INSERT INTO usuario_papel VALUES('admin',6);
 
 INSERT INTO tipo_retrospectiva VALUES (1, 'Tradicional');
-INSERT INTO tipo_retrospectiva VALUES (2, '6 Chapéus');
+INSERT INTO tipo_retrospectiva VALUES (2, '6 Chapï¿½us');
 
 INSERT INTO tipo_retrospectiva_item VALUES (1, 'O que foi bem', 1);
 INSERT INTO tipo_retrospectiva_item VALUES (2, 'O que pode ser melhorado', 1);
 
-INSERT INTO tipo_retrospectiva_item VALUES (3, 'Chapéu Azul - Objetivos', 2);
-INSERT INTO tipo_retrospectiva_item VALUES (4, 'Chapéu Branco - Fatos e Informações', 2);
-INSERT INTO tipo_retrospectiva_item VALUES (5, 'Chapéu Amarelo - Acontecimentos Positivos', 2);
-INSERT INTO tipo_retrospectiva_item VALUES (6, 'Chapéu Preto - Acontecimentos Negativos', 2);
-INSERT INTO tipo_retrospectiva_item VALUES (7, 'Chapéu Verde - Ideias', 2);
-INSERT INTO tipo_retrospectiva_item VALUES (8, 'Chapéu Vermelho - Sentimentos', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (3, 'Chapï¿½u Azul - Objetivos', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (4, 'Chapï¿½u Branco - Fatos e Informaï¿½ï¿½es', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (5, 'Chapï¿½u Amarelo - Acontecimentos Positivos', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (6, 'Chapï¿½u Preto - Acontecimentos Negativos', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (7, 'Chapï¿½u Verde - Ideias', 2);
+INSERT INTO tipo_retrospectiva_item VALUES (8, 'Chapï¿½u Vermelho - Sentimentos', 2);
 
 insert into configuracoes values ('tipoDeEstimativa', 'PMG');
 

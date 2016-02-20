@@ -1,4 +1,4 @@
-/* Cria usuários para a versão de demonstração */
+/* Cria usuï¿½rios para a versï¿½o de demonstraï¿½ï¿½o */
 delete from usuario_papel where usuario_key in ('justus', 'coach', 'time', 'cliente');
 delete from usuario where username in ('justus', 'coach', 'time', 'cliente');
 delete from cliente where cliente_key = 1;
@@ -17,5 +17,5 @@ INSERT INTO usuario_papel VALUES('time',9);
 
 /* Cliente */
 INSERT INTO cliente values(1, 'Cliente Teste');
-INSERT INTO usuario (username, "password", nome, email, cliente_key) VALUES ('cliente', 'SYOgq4PthuDnITyHg5QBkw==', 'Usuário Cliente', 'cliente@cliente.com.br', 1);
+INSERT INTO usuario (username, "password", nome, email, cliente_key) VALUES ('cliente', 'SYOgq4PthuDnITyHg5QBkw==', 'Usuï¿½rio Cliente', 'cliente@cliente.com.br', 1);
 INSERT INTO usuario_papel VALUES('cliente',7);
